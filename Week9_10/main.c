@@ -20,16 +20,3 @@ int main(void)
 
     return 0;
 }
-```[cite: 11, 13, 42]
-
----
-
-### Final Push to GitHub
-
-Once you save `main.c`, run these final commands in your terminal to stage, commit, and push your completed Week 9 and 10 lab work to GitHub[cite: 4]:
-
-```bash
-git add Week9_10
-git commit -m "Complete Week 9 and 10 labs for MFMS"
-git push origin main
-```[cite: 4]
