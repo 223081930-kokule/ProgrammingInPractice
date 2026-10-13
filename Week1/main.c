@@ -12,17 +12,16 @@ int main()
     printf("Enter Municipality Name: ");
     scanf("%49s", municipality);
 
-    printf("Enter Mayor's Name: ");
+    printf("Enter Mayor: ");
     scanf("%49s", mayor);
 
     printf("Enter Population: ");
     scanf("%d", &population);
 
-    printf("\n------------------------------\n");
-    printf("Municipality: %s\n", municipality);
-    printf("Mayor       : %s\n", mayor);
-    printf("Population  : %d\n", population);
-    printf("------------------------------\n");
+    printf("\n---------------------------------\n");
+    printf("Municipality : %s\n", municipality);
+    printf("Mayor        : %s\n", mayor);
+    printf("Population   : %d\n", population);
 
     return 0;
 }
